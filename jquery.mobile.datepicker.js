@@ -91,7 +91,7 @@
       isDisabled: function(){
         return this.calendar.datepicker("isDisabled");
       },
-      getDate: function(){
+      getDate: function(){ // Already defined l.85
         return this.calendar.datepicker("getDate");
       },
       refresh: function(){
